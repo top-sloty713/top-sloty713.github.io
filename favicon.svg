@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Контрольный спин">
+  <rect width="48" height="48" rx="11" fill="#1f5137"/>
+  <circle cx="24" cy="24" r="13.5" fill="none" stroke="#f4f1e8" stroke-width="2.4"/>
+  <path d="M24 10.5 A13.5 13.5 0 0 1 36.4 18.3" fill="none" stroke="#d7b45a" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M24 16 L24 24 L30 27.5" fill="none" stroke="#f4f1e8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="2.1" fill="#d7b45a"/>
+</svg>

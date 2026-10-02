@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Топ слоты 2026 — карта рисков списков и красные флаги отдачи</title>
+<meta name="description" content="Как читать топ слотов в 2026 году: версия RTP без подписи, клоны хитов, Buy Feature и накрутка «горячих» игр. Сетка риск × частота, таблица «флаг → вес → проверка» и домен провайдера.">
+<link rel="canonical" href="https://top-sloty713.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Топ слоты 2026: карта рисков и красные флаги списков отдачи">
+<meta property="og:description" content="Версия RTP, клоны хитов, бонусная покупка и «горячие» игры — что скрывает «топ слотов». Сетка риск × частота и проверка по домену провайдера.">
+<meta property="og:url" content="https://top-sloty713.github.io/">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500..800;1,500..600&family=Manrope:wght@400..800&display=swap">
+<style>
+:root{
+ --paper:#f3f0e6;--surface:#fbf9f1;--surface-2:#e8e3d2;--elevate:#fffdf6;
+ --ink:#16241c;--ink-2:#394a3e;--ink-3:#5f6a5b;
+ --line:#d6d0bd;--line-2:#aea791;
+ --forest:#1f5137;--forest-fill:#2a6344;--forest-soft:#dde7dc;--on-forest:#f6f3e9;
+ --brass:#9a7416;--brass-soft:#efe6cc;
+ --good:#2d6b4d;--good-soft:#d9e8dd;--bad:#9a3326;--bad-soft:#f0ded9;--warn:#856413;--warn-soft:#efe6c8;
+ --sel:#dde7dc;--track:#ddd7c7;
+ --c1:#2a6344;--c2:#9a7416;--c3:#7a5a9c;--c4:#b2532a;--c5:#2f6f84;--c6:#55713a;
+ --fd:"Playfair Display","PT Serif",Georgia,serif;
+ --ft:"Manrope","Segoe UI",system-ui,sans-serif;
+ --fs-d:clamp(2.1rem,1.4rem + 3vw,3.3rem);--fs-h2:clamp(1.42rem,1.18rem + 1.1vw,1.9rem);--fs-h3:1.19rem;
+ --fs-lead:clamp(1.06rem,1rem + .4vw,1.2rem);--fs-body:1.05rem;--fs-ui:.94rem;--fs-sm:.86rem;--fs-mi:.75rem;
+ --gut:clamp(16px,4vw,26px);--sec:clamp(42px,6vw,76px);--prose:46rem;--wide:66rem;--hero:54rem;
+ --r1:4px;--r2:8px;--r3:13px;--r4:18px;
+ --sh1:0 1px 0 rgba(22,36,28,.05),0 1px 2px rgba(22,36,28,.07);
+ --sh2:0 3px 10px rgba(22,36,28,.08),0 16px 30px -16px rgba(22,36,28,.20);
+ --ez:cubic-bezier(.22,1,.36,1);--d1:130ms;--d2:230ms;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --paper:#10140f;--surface:#161b14;--surface-2:#20271d;--elevate:#242c21;
+ --ink:#e9eadd;--ink-2:#b4bbab;--ink-3:#8b9384;
+ --line:#2c342a;--line-2:#454f3f;
+ --forest:#79b995;--forest-fill:#5fa37f;--forest-soft:#1d2c22;--on-forest:#0d130f;
+ --brass:#d4ab52;--brass-soft:#2c2614;
+ --good:#6fbd93;--good-soft:#17281e;--bad:#e08375;--bad-soft:#331c18;--warn:#d4ab52;--warn-soft:#2c2614;
+ --sel:#1d2c22;--track:#2c342a;
+ --c1:#6fbd93;--c2:#d4ab52;--c3:#b49ad6;--c4:#e0906a;--c5:#6fb2c6;--c6:#9fc271;
+ color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+ --paper:#10140f;--surface:#161b14;--surface-2:#20271d;--elevate:#242c21;
+ --ink:#e9eadd;--ink-2:#b4bbab;--ink-3:#8b9384;
+ --line:#2c342a;--line-2:#454f3f;
+ --forest:#79b995;--forest-fill:#5fa37f;--forest-soft:#1d2c22;--on-forest:#0d130f;
+ --brass:#d4ab52;--brass-soft:#2c2614;
+ --good:#6fbd93;--good-soft:#17281e;--bad:#e08375;--bad-soft:#331c18;--warn:#d4ab52;--warn-soft:#2c2614;
+ --sel:#1d2c22;--track:#2c342a;
+ --c1:#6fbd93;--c2:#d4ab52;--c3:#b49ad6;--c4:#e0906a;--c5:#6fb2c6;--c6:#9fc271;
+ color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--ft);font-size:var(--fs-body);line-height:1.62;font-weight:400;-webkit-font-smoothing:antialiased}
+::selection{background:var(--sel)}
+h1,h2,h3{font-family:var(--fd);line-height:1.16;font-weight:700;color:var(--ink)}
+a{color:var(--forest)}
+img,svg{max-width:100%}
+.tslot-wrap{max-width:var(--wide);margin:0 auto;padding:0 var(--gut)}
+.tslot-prose{max-width:var(--prose)}
+
+/* header */
+.tslot-mast{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 88%,transparent);border-bottom:1px solid transparent;transition:border-color var(--d2),background var(--d2);backdrop-filter:saturate(1.1)}
+.tslot-mast.tslot-stuck{border-color:var(--line);box-shadow:var(--sh1)}
+.tslot-mast-in{display:flex;align-items:center;gap:18px;height:58px;max-width:var(--wide);margin:0 auto;padding:0 var(--gut)}
+.tslot-mark{display:flex;align-items:center;gap:10px;font-family:var(--fd);font-weight:800;font-size:1.06rem;letter-spacing:.1px;white-space:nowrap}
+.tslot-mark svg{width:26px;height:26px;flex:0 0 auto}
+.tslot-nav{display:flex;gap:4px;overflow-x:auto;margin-left:auto;scrollbar-width:none;-webkit-mask:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent)}
+.tslot-nav::-webkit-scrollbar{display:none}
+.tslot-nav a{color:var(--ink-2);text-decoration:none;font-size:var(--fs-ui);font-weight:600;padding:7px 11px;border-radius:var(--r2);white-space:nowrap;transition:color var(--d1),background var(--d1)}
+.tslot-nav a:hover{background:var(--surface-2)}
+.tslot-nav a.tslot-on{color:var(--forest);background:var(--forest-soft)}
+.tslot-theme{flex:0 0 auto;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);font:inherit;font-size:var(--fs-sm);font-weight:600;padding:6px 10px;border-radius:var(--r2);cursor:pointer}
+
+/* hero */
+.tslot-hero{padding:calc(var(--sec) * .8) 0 var(--sec)}
+.tslot-hero-in{max-width:var(--hero)}
+.tslot-date{font-size:var(--fs-sm);color:var(--ink-3);font-weight:600;letter-spacing:.2px}
+.tslot-hero h1{font-size:var(--fs-d);margin:.3em 0 .35em;font-weight:800}
+.tslot-hero h1 em{font-style:italic;color:var(--forest);font-weight:700}
+.tslot-lead{font-size:var(--fs-lead);color:var(--ink-2);max-width:40rem}
+.tslot-kicker{display:inline-block;margin-top:22px;font-size:var(--fs-mi);color:var(--ink-3);border:1px dashed var(--line-2);border-radius:var(--r2);padding:5px 10px}
+
+/* takeaway */
+.tslot-gist{margin:34px 0 0;border:1px solid var(--line);border-left:5px solid var(--forest);background:var(--surface);border-radius:var(--r3);padding:22px 24px;box-shadow:var(--sh1);max-width:44rem}
+.tslot-gist h2{font-size:1.16rem;margin:0 0 10px}
+.tslot-gist ul{margin:0;padding-left:1.15em}
+.tslot-gist li{margin:.34em 0;color:var(--ink-2)}
+.tslot-gist b{color:var(--ink)}
+
+/* sections */
+.tslot-sect{padding:var(--sec) 0;border-top:1px solid var(--line)}
+.tslot-sect h2{font-size:var(--fs-h2);margin:0 0 .5em;max-width:34rem}
+.tslot-sect h3{font-size:var(--fs-h3);margin:1.7em 0 .4em}
+.tslot-sect p{margin:.85em 0;max-width:var(--prose)}
+.tslot-num{display:block;font-family:var(--ft);font-weight:800;font-size:var(--fs-sm);color:var(--brass);letter-spacing:.14em;margin-bottom:.5em}
+.tslot-sect ul,.tslot-sect ol{max-width:var(--prose)}
+.tslot-sect li{margin:.4em 0}
+
+/* figure */
+.tslot-fig{margin:28px 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r4);padding:20px;box-shadow:var(--sh2)}
+.tslot-fig svg{display:block;width:100%;height:auto}
+.tslot-cap{font-size:var(--fs-sm);color:var(--ink-3);margin-top:12px;max-width:40rem}
+.tslot-legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin:10px 0 4px;font-size:var(--fs-sm);color:var(--ink-2)}
+.tslot-legend span{display:inline-flex;align-items:center;gap:7px}
+.tslot-dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto;border:2px solid var(--surface)}
+
+/* tables */
+.tslot-tscroll{overflow-x:auto;margin-top:16px;border-radius:var(--r3);border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-ui);background:var(--elevate)}
+caption{text-align:left;font-size:var(--fs-sm);color:var(--ink-3);padding:10px 14px;caption-side:top}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{background:var(--surface-2);color:var(--ink);font-weight:700;font-size:var(--fs-sm);position:sticky;top:0}
+tbody tr:last-child td{border-bottom:none}
+td b{color:var(--ink)}
+.tslot-w{font-variant-numeric:tabular-nums;font-weight:800;color:var(--forest)}
+.tslot-pill{display:inline-block;font-size:var(--fs-mi);font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.tslot-pill.hi{background:var(--bad-soft);color:var(--bad)}
+.tslot-pill.md{background:var(--warn-soft);color:var(--warn)}
+.tslot-pill.lo{background:var(--good-soft);color:var(--good)}
+
+/* steps */
+.tslot-steps{counter-reset:s;list-style:none;padding:0;margin:20px 0;max-width:var(--prose)}
+.tslot-steps li{position:relative;padding:14px 16px 14px 56px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r3);margin:10px 0}
+.tslot-steps li::before{counter-increment:s;content:counter(s);position:absolute;left:14px;top:14px;width:30px;height:30px;border-radius:50%;background:var(--forest);color:var(--on-forest);display:grid;place-items:center;font-weight:800;font-size:.95rem}
+.tslot-steps b{display:block;margin-bottom:2px}
+
+/* faq */
+.tslot-faq{max-width:var(--prose)}
+.tslot-faq details{border:1px solid var(--line);border-radius:var(--r3);background:var(--surface);margin:10px 0;overflow:hidden}
+.tslot-faq summary{cursor:pointer;padding:15px 18px;font-weight:700;font-family:var(--fd);font-size:1.04rem;list-style:none;display:flex;justify-content:space-between;gap:14px}
+.tslot-faq summary::-webkit-details-marker{display:none}
+.tslot-faq summary::after{content:"+";color:var(--forest);font-weight:800;font-size:1.3rem;line-height:1}
+.tslot-faq details[open] summary::after{content:"\2212"}
+.tslot-ans{padding:0 18px 16px;color:var(--ink-2)}
+.tslot-ans p{margin:.5em 0}
+
+/* channel */
+.tslot-channel{background:var(--forest);color:var(--on-forest);border-radius:var(--r4);padding:30px;margin-top:20px}
+.tslot-channel h2{color:var(--on-forest);margin-top:0}
+.tslot-channel p{color:color-mix(in srgb,var(--on-forest) 86%,transparent);max-width:40rem}
+.tslot-cta{display:inline-flex;align-items:center;gap:9px;margin-top:14px;background:var(--on-forest);color:var(--forest);text-decoration:none;font-weight:800;padding:12px 20px;border-radius:var(--r2)}
+.tslot-cta:hover{background:#fff}
+
+/* care */
+.tslot-care{margin-top:26px;border:1px solid var(--line-2);border-radius:var(--r3);padding:16px 20px;font-size:var(--fs-sm);color:var(--ink-2);background:var(--surface);max-width:var(--prose)}
+.tslot-care b{color:var(--ink)}
+
+/* footer */
+.tslot-foot{border-top:1px solid var(--line);margin-top:var(--sec);padding:40px 0}
+.tslot-foot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.tslot-foot h4{font-family:var(--fd);font-size:1rem;margin:0 0 8px}
+.tslot-foot p,.tslot-foot li{font-size:var(--fs-sm);color:var(--ink-3)}
+.tslot-foot ul{list-style:none;padding:0;margin:0}
+.tslot-foot a{color:var(--ink-2)}
+.tslot-fine{margin-top:26px;font-size:var(--fs-mi);color:var(--ink-3)}
+
+a[href]:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--forest);outline-offset:2px;border-radius:var(--r1)}
+@media (max-width:720px){.tslot-foot-grid{grid-template-columns:1fr;gap:20px}.tslot-nav{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:1ms!important}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","@id":"https://top-sloty713.github.io/#page","headline":"Топ слоты 2026: карта рисков списков и красные флаги отдачи","description":"Как читать топ слотов в 2026 году: версия RTP без подписи, клоны хитов, Buy Feature и накрутка «горячих» игр. Сетка риск × частота, таблица «флаг → вес → проверка» и проверка по домену провайдера.","inLanguage":"ru","datePublished":"2026-10-01","dateModified":"2026-10-01","author":{"@type":"Organization","name":"Редакция «Контрольный спин»"},"publisher":{"@type":"Organization","name":"Контрольный спин"},"mainEntityOfPage":"https://top-sloty713.github.io/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","@id":"https://top-sloty713.github.io/#howto-proverka","name":"Как перепроверить слот из списка за шесть шагов","totalTime":"PT6M","step":[
+{"@type":"HowToStep","position":1,"name":"Найдите страницу игры на домене провайдера","text":"Откройте сайт студии, которая выпустила автомат, и найдите тайтл в её каталоге. Сверьте точное написание названия и логотип: клоны копируют обложку, но живут на чужом домене."},
+{"@type":"HowToStep","position":2,"name":"Сверьте версию RTP с паспортом игры","text":"На странице провайдера указан теоретический RTP и перечень версий. Запишите число и сопоставьте его с тем, что показывает слот в разделе «Информация» перед запуском."},
+{"@type":"HowToStep","position":3,"name":"Проверьте сертификат ГСЧ и лабораторию","text":"В паспорте или подвале игры указана лаборатория: GLI, eCOGRA, iTech Labs или BMM. Номер сертификата должен относиться к этому тайтлу и провайдеру, а не к оператору."},
+{"@type":"HowToStep","position":4,"name":"Отделите маркетинговый статус от данных","text":"Ярлыки «горячий», «отдаёт сейчас», «топ недели» не подкреплены телеметрией. Игнорируйте их и смотрите на RTP, класс волатильности и диапазон max win."},
+{"@type":"HowToStep","position":5,"name":"Оцените Buy Feature и дисперсию отдельно","text":"Если в автомате есть покупка бонуса, заложенный RTP покупки и базовой игры различается. Посчитайте стоимость входа в бонус против банкролла до того, как нажать кнопку."},
+{"@type":"HowToStep","position":6,"name":"Проверьте лимиты и правила начисления в кассе","text":"Сверьте, засчитывается ли игра в отыгрыш бонуса и нет ли лимита ставки. Именно здесь список чаще всего расходится с реальными условиями оператора."}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","@id":"https://top-sloty713.github.io/#faq","mainEntity":[
+{"@type":"Question","name":"Почему один и тот же слот показывает разный RTP в разных казино?","acceptedAnswer":{"@type":"Answer","text":"Крупные провайдеры выпускают тайтл в нескольких версиях RTP — например 96,5 %, 94 % и 92 %. Оператор выбирает версию при подключении. Без подписи версии в списке число «высокий RTP» ничего не гарантирует: у вас может быть запущена самая низкая конфигурация."}},
+{"@type":"Question","name":"Как отличить оригинальный слот от клона в подборке?","acceptedAnswer":{"@type":"Answer","text":"Откройте домен провайдера и найдите тайтл в его каталоге. У оригинала совпадают название, логотип студии, номер сертификата лаборатории и заявленный RTP. Клон копирует обложку и имя, но живёт на чужом домене и часто не имеет паспорта игры и сертификата ГСЧ."}},
+{"@type":"Question","name":"Что означает статус «горячий» или «отдаёт сейчас» у игры в топе?","acceptedAnswer":{"@type":"Answer","text":"Это маркетинговый ярлык без телеметрии. Результат каждого спина определяет генератор случайных чисел, прошлые выплаты не влияют на будущие. «Горячих» и «холодных» автоматов в математическом смысле не существует, статус накручивается для привлечения внимания."}},
+{"@type":"Question","name":"Buy Feature повышает шансы на выигрыш?","acceptedAnswer":{"@type":"Answer","text":"Покупка бонуса гарантирует вход в бонусный раунд, но не повышает отдачу. RTP версии с покупкой у многих студий отличается от базовой игры, а стоимость входа в 50–100 ставок резко увеличивает дисперсию и скорость расхода банкролла."}},
+{"@type":"Question","name":"Можно ли доверять формулировке «самые отдающие слоты»?","acceptedAnswer":{"@type":"Answer","text":"Только если рядом есть проверяемые числа: версия RTP, класс волатильности, диапазон max win и ссылка на паспорт игры у провайдера. Формулировка без единой цифры и без источника — рекламный заголовок, а не данные об отдаче."}},
+{"@type":"Question","name":"Куда смотреть, если слот из списка оказался проблемным?","acceptedAnswer":{"@type":"Answer","text":"Сначала к домену провайдера и сертификату лаборатории, затем к правилам кассы оператора: лимит ставки при бонусе, засчитывается ли игра в отыгрыш, условия max cashout. Платёжные претензии решаются через поддержку оператора, при отказе — через платёжную систему или арбитра лицензии."}}
+]}
+</script>
+</head>
+<body>
+<header class="tslot-mast" id="tslot-mast">
+ <div class="tslot-mast-in">
+  <span class="tslot-mark">
+   <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="var(--forest)"/><circle cx="24" cy="24" r="13.5" fill="none" stroke="var(--on-forest)" stroke-width="2.4"/><path d="M24 10.5 A13.5 13.5 0 0 1 36.4 18.3" fill="none" stroke="var(--brass)" stroke-width="3.4" stroke-linecap="round"/><path d="M24 16 L24 24 L30 27.5" fill="none" stroke="var(--on-forest)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2.1" fill="var(--brass)"/></svg>
+   Контрольный спин
+  </span>
+  <nav class="tslot-nav" aria-label="Разделы">
+   <a href="#ranzhir">Что ранжирует топ</a>
+   <a href="#setka">Сетка риска</a>
+   <a href="#versiya">Версия RTP</a>
+   <a href="#dvoynik">Клон хита</a>
+   <a href="#domen">Домен провайдера</a>
+   <a href="#flagi">Красные флаги</a>
+   <a href="#poryadok">Проверка слота</a>
+   <a href="#faq">Вопросы</a>
+  </nav>
+  <button class="tslot-theme" id="tslot-theme" type="button" aria-label="Переключить тему">Тема</button>
+ </div>
+</header>
+
+<main>
+<section class="tslot-hero">
+ <div class="tslot-wrap">
+  <div class="tslot-hero-in">
+   <p class="tslot-date">Обновлено 1 октября 2026 · Москва</p>
+   <h1>Топ слоты 2026: <em>карта рисков</em> списков отдачи и красные флаги</h1>
+   <p class="tslot-lead">Подборка «топ слотов» почти никогда не описывает отдачу игр. Она описывает, какие релизы провайдеру и площадке выгоднее показать сегодня. Разбираем, где в таком списке прячется риск, как проверить версию RTP и домен провайдера и чем клон хита отличается от оригинального софта.</p>
+   <span class="tslot-kicker">Числа в графиках — иллюстративная модель частоты и ущерба, а не замер конкретных сайтов</span>
+  </div>
+
+  <div class="tslot-gist">
+   <h2>Коротко, прежде чем открывать список</h2>
+   <ul>
+    <li><b>RTP без версии — не отдача.</b> Один тайтл выходит в нескольких конфигурациях RTP; оператор ставит любую.</li>
+    <li><b>«Самые отдающие» без цифр — заголовок.</b> Проверяемы только число, класс волатильности и max win.</li>
+    <li><b>Якорь проверки — домен провайдера.</b> Оригинал живёт в каталоге студии и имеет паспорт игры с сертификатом ГСЧ.</li>
+    <li><b>Buy Feature и «горячий» статус</b> увеличивают дисперсию и внимание, но не отдачу.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="tslot-sect" id="ranzhir">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 01</span>
+  <h2>Что на самом деле ранжирует «топ слотов»</h2>
+  <p>Список игр собирается по одному из трёх принципов, и ни один из них не равен отдаче. Первый — коммерческий: вверху стоят релизы, под которые у площадки действует договор с провайдером или партнёрская активность, поэтому новая игра студии оказывается в топе в день выхода, когда накопленной статистики по ней ещё нет. Второй — поведенческий: сортировка по числу запусков за сутки, то есть по вниманию, а не по математике автомата. Третий — редакционный, и он честнее остальных, если автор рядом с названием кладёт проверяемые числа.</p>
+  <p>Отдача автомата описывается тремя величинами, и все три должны быть видимы в подписи к позиции. Теоретический RTP — доля ставок, возвращаемая игрой на длинной дистанции; он задан провайдером и подтверждён лабораторией. Класс волатильности — насколько неровно эта доля возвращается: высокая дисперсия даёт редкие крупные заносы и долгие пустые серии. Диапазон max win — потолок выигрыша в кратности ставки, от скромных сотен до десятков тысяч. Позиция без этих трёх чисел не описывает игру, она её рекламирует.</p>
+  <p>Партнёрский релиз — самый частый источник завышенной позиции. Студия выпускает автомат, площадка получает маркетинговую поддержку за его продвижение, и игра встаёт в начало подборки в день выхода. Накопленной статистики по ней ещё нет, класс волатильности подтверждается только на дистанции, а отдача может быть представлена сразу в нескольких версиях. Дата релиза рядом с позицией — простой индикатор: свежая игра в перечне «по отдаче» почти наверняка стоит там по договору, а не по данным.</p>
+  <p>Отсюда рабочее правило чтения любого перечня. Сначала смотрим не на порядок строк, а на то, есть ли под каждой из них версия RTP, волатильность, max win и ссылка на каталог провайдера. Если подписи нет, порядок произволен и ориентироваться на него нельзя. Дальнейшие разделы разбирают шесть типовых мест, где произвол превращается в деньги игрока: версия RTP, пустая формулировка отдачи, клон хита, домен провайдера, бонусная покупка и накрученный статус.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="setka">
+ <div class="tslot-wrap">
+  <span class="tslot-num">Раздел 02</span>
+  <h2>Сетка риска: как часто встречается и во сколько обходится</h2>
+  <div class="tslot-prose">
+   <p>Шесть рисков списка неравнозначны. Одни попадаются почти в каждой подборке, но стоят игроку немного; другие редки, зато уводят весь депозит. Чтобы не путать частое с дорогим, разложим их по двум осям: горизонталь — как часто риск встречается в списках, вертикаль — во сколько обходится ошибка одному игроку. Правый верхний угол — то, что встречается часто и стоит дорого; именно туда смотрят в первую очередь.</p>
+  </div>
+  <figure class="tslot-fig">
+   <svg viewBox="0 0 720 420" role="img" aria-labelledby="mtt mtd">
+    <title id="mtt">Сетка риска списков слотов: частота против стоимости ошибки</title>
+    <desc id="mtd">Диаграмма рассеяния: по горизонтали частота появления риска в списках, по вертикали стоимость ошибки для игрока.</desc>
+    <line x1="70" y1="360" x2="700" y2="360" stroke="var(--line-2)" stroke-width="1.5"/>
+    <line x1="70" y1="40" x2="70" y2="360" stroke="var(--line-2)" stroke-width="1.5"/>
+    <line x1="385" y1="40" x2="385" y2="360" stroke="var(--line)" stroke-width="1" stroke-dasharray="4 5"/>
+    <line x1="70" y1="200" x2="700" y2="200" stroke="var(--line)" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="385" y="392" text-anchor="middle" font-family="Manrope" font-size="14" fill="var(--ink-3)">Частота в списках →</text>
+    <text x="24" y="200" text-anchor="middle" font-family="Manrope" font-size="14" fill="var(--ink-3)" transform="rotate(-90 24 200)">Стоимость ошибки →</text>
+    <text x="78" y="54" font-family="Manrope" font-size="12" fill="var(--ink-3)">редко</text>
+    <text x="640" y="356" font-family="Manrope" font-size="12" fill="var(--ink-3)">часто</text>
+    <!-- points: x by frequency, y inverted by cost -->
+    <g font-family="Manrope" font-size="13" fill="var(--ink)">
+     <circle cx="560" cy="250" r="9" fill="var(--c2)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="548" y="236" text-anchor="end">Версия RTP без подписи</text>
+     <circle cx="600" cy="300" r="9" fill="var(--c6)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="588" y="304" text-anchor="end">«Самые отдающие» без цифр</text>
+     <circle cx="300" cy="100" r="9" fill="var(--c4)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="314" y="96">Клон хита</text>
+     <circle cx="360" cy="120" r="9" fill="var(--c3)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="374" y="124">Buy Feature-ловушка</text>
+     <circle cx="590" cy="320" r="9" fill="var(--c1)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="578" y="338" text-anchor="end">Партнёрский релиз</text>
+     <circle cx="470" cy="290" r="9" fill="var(--c5)" stroke="var(--surface)" stroke-width="2.5"/>
+     <text x="458" y="294" text-anchor="end">Накрутка «горячих»</text>
+    </g>
+   </svg>
+   <p class="tslot-cap">Иллюстративная модель: позиции отражают относительную частоту и стоимость ошибки, а не измерение конкретных площадок. Те же оценки — в таблице ниже.</p>
+   <div class="tslot-tscroll">
+    <table>
+     <caption>Шесть рисков списка слотов по частоте и стоимости ошибки</caption>
+     <thead><tr><th>Риск</th><th>Частота</th><th>Стоимость ошибки</th><th>Куда смотреть</th></tr></thead>
+     <tbody>
+      <tr><td><b>Версия RTP без подписи</b></td><td><span class="tslot-pill md">высокая</span></td><td><span class="tslot-pill md">средняя</span></td><td>раздел «Информация» в игре</td></tr>
+      <tr><td><b>«Самые отдающие» без цифр</b></td><td><span class="tslot-pill hi">очень высокая</span></td><td><span class="tslot-pill lo">низкая</span></td><td>наличие числа RTP и источника</td></tr>
+      <tr><td><b>Клон хита в списке</b></td><td><span class="tslot-pill lo">средняя</span></td><td><span class="tslot-pill hi">высокая</span></td><td>домен и каталог провайдера</td></tr>
+      <tr><td><b>Buy Feature-ловушка</b></td><td><span class="tslot-pill lo">средняя</span></td><td><span class="tslot-pill hi">высокая</span></td><td>RTP покупки против базового</td></tr>
+      <tr><td><b>Партнёрский релиз вместо отдачи</b></td><td><span class="tslot-pill hi">очень высокая</span></td><td><span class="tslot-pill lo">низкая</span></td><td>дата выхода и наличие статистики</td></tr>
+      <tr><td><b>Накрутка «горячих»</b></td><td><span class="tslot-pill lo">средняя</span></td><td><span class="tslot-pill lo">низкая</span></td><td>есть ли телеметрия за ярлыком</td></tr>
+     </tbody>
+    </table>
+   </div>
+  </figure>
+  <div class="tslot-prose">
+   <p>Сетка подсказывает порядок действий. Правый нижний угол — частое и недорогое: пустая формулировка отдачи и партнёрский релиз встречаются почти в каждой подборке, но прямого ущерба не несут, их достаточно замечать и не принимать за данные. Левый верхний угол — редкое и дорогое: клон хита и бонусная покупка попадаются реже, зато ошибка с ними стоит депозита, поэтому их проверяют тщательнее всего. Версия RTP без подписи стоит в середине по обеим осям и встречается постоянно — именно поэтому с неё начинается проверка любой позиции, разобранная в следующих разделах.</p>
+  </div>
+ </div>
+</section>
+
+<section class="tslot-sect" id="versiya">
+ <div class="tslot-wrap">
+  <span class="tslot-num">Раздел 03</span>
+  <h2>Версия RTP без подписи: одно имя — три разные математики</h2>
+  <div class="tslot-prose">
+   <p>Это главный разрыв между списком и реальностью. Крупные студии давно выпускают один и тот же автомат в нескольких конфигурациях RTP и дают оператору выбрать, какую подключить. Pragmatic Play, например, поставляет популярные тайтлы в версиях вроде 96,5 %, 94 % и 92 %; близкая практика есть у Play'n GO, Red Tiger и ряда других. Для игрока это значит простое: название в топе одно, а возвращаемая доля — любая из трёх, и узнать её можно только внутри запущенной игры.</p>
+   <p>Разница не косметическая. При ставке 100 ₽ и обороте в 100 000 ₽ ожидаемая отдача версии 96,5 % — около 96 500 ₽, версии 92 % — около 92 000 ₽. Четыре с половиной процента оборота — это заложенная разница в несколько тысяч рублей на дистанции, и список, который хвалит «высокий RTP» без указания версии, скрывает именно её. Поэтому число отдачи без подписи версии бесполезно: оно описывает лучшую из возможных конфигураций, а подключена может быть худшая.</p>
+  </div>
+  <figure class="tslot-fig">
+   <svg viewBox="0 0 720 300" role="img" aria-labelledby="rtt rtd">
+    <title id="rtt">Три версии RTP одного тайтла на шкале 90–100 %</title>
+    <desc id="rtd">Горизонтальные бары: один автомат в трёх конфигурациях RTP на обрезанной шкале от 90 до 100 процентов.</desc>
+    <!-- scale 90..100 mapped to x 180..680 (width 500 = 10%) -->
+    <g font-family="Manrope" font-size="13" fill="var(--ink-3)">
+     <line x1="180" y1="40" x2="180" y2="250" stroke="var(--line)" stroke-width="1"/>
+     <line x1="430" y1="40" x2="430" y2="250" stroke="var(--line)" stroke-width="1" stroke-dasharray="4 5"/>
+     <line x1="680" y1="40" x2="680" y2="250" stroke="var(--line)" stroke-width="1"/>
+     <text x="180" y="272" text-anchor="middle">90 %</text>
+     <text x="430" y="272" text-anchor="middle">95 %</text>
+     <text x="680" y="272" text-anchor="middle">100 %</text>
+    </g>
+    <g font-family="Manrope" font-size="14">
+     <text x="20" y="80" fill="var(--ink)">Версия A</text>
+     <rect x="180" y="66" width="325" height="24" rx="4" fill="var(--c1)"/>
+     <text x="515" y="83" fill="var(--ink)" font-weight="700">96,5 %</text>
+     <text x="20" y="140" fill="var(--ink)">Версия B</text>
+     <rect x="180" y="126" width="200" height="24" rx="4" fill="var(--c2)"/>
+     <text x="390" y="143" fill="var(--ink)" font-weight="700">94,0 %</text>
+     <text x="20" y="200" fill="var(--ink)">Версия C</text>
+     <rect x="180" y="186" width="100" height="24" rx="4" fill="var(--c4)"/>
+     <text x="290" y="203" fill="var(--ink)" font-weight="700">92,0 %</text>
+    </g>
+   </svg>
+   <p class="tslot-cap">Типовой набор версий RTP, в которых студии поставляют один тайтл. Конкретные числа у разных игр отличаются; принцип «одно имя — несколько конфигураций» общий. Данные дублированы в таблице.</p>
+   <div class="tslot-tscroll">
+    <table>
+     <caption>Один автомат в трёх версиях RTP и ожидаемый возврат на обороте 100 000 ₽</caption>
+     <thead><tr><th>Версия</th><th>RTP</th><th>Заложенный возврат на 100 000 ₽</th><th>Где видно</th></tr></thead>
+     <tbody>
+      <tr><td><b>Версия A</b></td><td class="tslot-w">96,5 %</td><td>≈ 96 500 ₽</td><td>раздел «Информация» / паспорт игры</td></tr>
+      <tr><td><b>Версия B</b></td><td class="tslot-w">94,0 %</td><td>≈ 94 000 ₽</td><td>раздел «Информация» / паспорт игры</td></tr>
+      <tr><td><b>Версия C</b></td><td class="tslot-w">92,0 %</td><td>≈ 92 000 ₽</td><td>раздел «Информация» / паспорт игры</td></tr>
+     </tbody>
+    </table>
+   </div>
+   <p class="tslot-cap">RTP — теоретическая величина на длинной дистанции; на коротком отрезке результат определяет генератор случайных чисел и волатильность.</p>
+  </figure>
+  <div class="tslot-prose">
+   <h3>Как прочитать версию за полминуты</h3>
+   <p>Перед первой ставкой откройте в автомате меню «Информация» или «Правила»: добросовестная игра показывает там теоретический RTP текущей сборки. Сравните это число с тем, что обещал список. Расхождение — не ошибка списка, а его природа: подпись без версии всегда описывает верхнюю конфигурацию. Если меню RTP не показывает вовсе, это отдельный красный флаг — у оригинального софта паспорт отдачи есть всегда.</p>
+  </div>
+ </div>
+</section>
+
+<section class="tslot-sect" id="otdacha">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 04</span>
+  <h2>«Самые отдающие» без единой цифры</h2>
+  <p>Формулировка «самые отдающие слоты» встречается чаще любого другого обещания и почти никогда не сопровождается данными. Проверить её легко по одному признаку: есть ли рядом число. Отдача — измеримая величина, у неё есть источник (провайдер), подтверждение (лаборатория) и единица (проценты). Заголовок без процента, без класса волатильности и без ссылки на паспорт игры описывает не отдачу, а намерение удержать внимание.</p>
+  <p>Опасность здесь не в прямой потере денег, а в подмене критерия. Игрок, поверивший слову «отдающий», перестаёт искать число и переносит доверие с данных на формулировку. Дальше в тот же список спокойно встают игры с версией RTP 92 % и Buy Feature, потому что проверять их уже не хочется. Поэтому пустая формулировка стоит в сетке риска как очень частая, но сама по себе недорогая: она опасна тем, что открывает дверь остальным пяти рискам.</p>
+  <p>Рабочая замена слову «отдающий» — три проверяемых числа и источник. Если автор списка приводит версию RTP, класс волатильности, диапазон max win и даёт перейти в каталог провайдера, формулировку можно принять. Если вместо чисел стоят эпитеты и значки огня, список описывает себя, а не игры, и к отдаче отношения не имеет.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="dvoynik">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 05</span>
+  <h2>Двойник хита в списке: клон вместо оригинального софта</h2>
+  <p>Популярные названия копируют. В подборку под именем известной игры — скажем, в жанре Megaways от Big Time Gaming или громкого релиза Pragmatic Play — попадает двойник: та же обложка, похожее имя, но другой код, другой генератор случайных чисел и отсутствующий сертификат лаборатории. Оригинальный тайтл живёт в каталоге студии, у него есть паспорт игры с заявленным RTP и номером сертификата ГСЧ. Клон живёт на чужом домене и паспорта не имеет.</p>
+  <p>Клон опасен тем, что ломает саму возможность проверки. У оригинала известен RTP, известна лаборатория, известна волатильность — есть на что опереться. У двойника отдача не определена: заявленное число ничем не подтверждено, поведение игры может отличаться от оригинала, а результат не проходит независимую сертификацию. Поэтому в сетке риска клон стоит как умеренно частый, но дорогой: встречается не в каждом списке, зато уводит игрока в софт без гарантий.</p>
+  <p>Отличить двойника помогает последовательность из трёх сверок. Название и логотип студии — у клона обычно «почти как у оригинала», с лишней буквой или другим написанием. Домен каталога — оригинал всегда есть на сайте провайдера, двойника там нет. Сертификат ГСЧ — у оригинального софта номер относится к тайтлу и студии; у клона сертификата либо нет, либо он указывает на другой объект. Эти же сверки лежат в основе проверки по домену провайдера из следующего раздела.</p>
+  <p>Отдельный подвид двойника — реплика под брендом студии: интерфейс и звук копируют оригинал настолько точно, что отличить их на глаз почти невозможно. Здесь работает только внешняя сверка — номер сертификата ГСЧ в реестре лаборатории и наличие тайтла в каталоге провайдера. Если игра визуально совпадает с известным релизом, но не находится ни в каталоге, ни в реестре, перед вами реплика, и заявленная в ней отдача не значит ничего.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="domen">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 06</span>
+  <h2>Домен провайдера как точка опоры проверки</h2>
+  <p>Самая устойчивая опора при чтении любого списка — не рейтинг площадки и не число запусков, а домен студии, выпустившей автомат. Провайдер держит каталог своих игр на собственном сайте: там названия, обложки, заявленный RTP, перечень версий и часто сведения о лаборатории. Если тайтл из топа находится в этом каталоге и совпадает по названию, логотипу и числам — перед вами оригинальный софт. Если не находится — это повод для остановки, а не для ставки.</p>
+  <p>Домен провайдера решает сразу две задачи предыдущих разделов. Он отсекает клонов, потому что двойника в официальном каталоге нет. И он показывает версии RTP, потому что студия перечисляет конфигурации, в которых поставляет игру. Независимое подтверждение добавляют лаборатории: Gaming Laboratories International (GLI), eCOGRA, iTech Labs и BMM Testlabs сертифицируют генераторы случайных чисел и заявленную отдачу. Их реестры — внешняя проверка, не связанная ни со списком, ни с оператором.</p>
+  <p>Практический порядок прост. Из топа берём название игры и имя студии. Открываем сайт провайдера и находим тайтл в каталоге. Сверяем RTP и версии, затем номер сертификата лаборатории. Только после этого смотрим, как игра подключена у конкретного оператора и какая версия RTP активна. Список при таком чтении превращается из источника решения в список кандидатов на проверку — что и есть его единственная законная роль.</p>
+  <h3>Отпечаток сборки и Round ID</h3>
+  <p>Оригинальный софт оставляет следы, которые дёшево не подделать. У сертифицированной игры в истории ставок есть идентификатор раунда (Round ID): по нему результат проверяется на стороне провайдера, а не только у оператора. Версия сборки в паспорте тайтла привязывает игру к конкретной сертификации лаборатории. Клон и реплика этих следов обычно не имеют — история раундов либо отсутствует, либо не проверяется у студии, и это ещё один повод снять позицию с доверия.</p>
+  <p class="tslot-cap">Независимые лаборатории для сверки сертификата ГСЧ: <a href="https://gli.com/" rel="nofollow noopener" target="_blank">GLI</a>, <a href="https://ecogra.org/" rel="nofollow noopener" target="_blank">eCOGRA</a>, <a href="https://itechlabs.com/" rel="nofollow noopener" target="_blank">iTech Labs</a>.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="buyfeature">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 07</span>
+  <h2>Buy Feature в подборке: как покупка бонуса ломает банкролл</h2>
+  <p>Многие современные автоматы предлагают купить вход в бонусный раунд сразу — функция называется Buy Feature или Bonus Buy. В топах такие игры стоят часто, потому что покупка даёт быстрый зрелищный результат и повышает оборот. На отдачу это не влияет в ту сторону, в какую ждёт игрок: гарантируется только попадание в бонус, а не выигрыш в нём. У ряда студий версия RTP с покупкой отличается от базовой игры, иногда в меньшую сторону, и это отдельная строка в паспорте тайтла.</p>
+  <p>Главный риск покупки — дисперсия и скорость расхода. Вход в бонус стоит обычно от 50 до 100 ставок: при ставке 50 ₽ одна покупка — это 2 500–5 000 ₽ за нажатие. Банкролл, которого при обычной игре хватило бы на сотни спинов, здесь уходит за десяток покупок, и серия неудачных входов опустошает счёт быстрее, чем игрок успевает оценить дистанцию. Поэтому в сетке риска Buy Feature стоит как умеренно частый, но дорогой.</p>
+  <p>К оценке стоит добавить частоту срабатывания бонуса (hit frequency) — как часто игра сама выдаёт бонусный раунд без покупки. У волатильных тайтлов она низкая, и покупка кажется выгодной: ждать естественного входа долго. Но низкая частота — это и есть высокая дисперсия, с которой покупка не борется, а усиливает её. Чем реже бонус приходит сам, тем дороже стоит его покупка и тем резче скачет баланс после каждого входа.</p>
+  <p>Перед покупкой считают два числа. Первое — стоимость входа в кратности ставки и в рублях относительно всего банкролла на сессию: если одна покупка съедает заметную долю бюджета, частить нельзя. Второе — заявленный RTP именно версии с покупкой, он указан в паспорте игры отдельно от базового. Покупка бонуса — инструмент для ровной дистанции и трезвого бюджета, а не способ поднять отдачу, и список, который хвалит её как «быстрый занос», вводит в заблуждение.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="goryachie">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 08</span>
+  <h2>Статус «горячий» и «отдаёт сейчас» без телеметрии</h2>
+  <p>Ярлыки «горячая игра», «отдаёт сейчас», «топ недели» и значки пламени — чистый маркетинг. Результат каждого спина задаёт генератор случайных чисел, а он не помнит прошлых исходов: автомат не «нагревается» после серии проигрышей и не «остывает» после заноса. «Горячих» и «холодных» слотов в математическом смысле не существует, и любой статус, обещающий повышенную отдачу прямо сейчас, не подкреплён данными.</p>
+  <p>Иногда за ярлыком стоит реальная цифра — например, доля игроков, запускавших игру за сутки. Это телеметрия внимания, а не отдачи: популярность показывает, что игру много открывали, но ничего не говорит о её RTP и волатильности. Чаще же за статусом нет вообще ничего, кроме решения редакции подсветить нужную позицию. Отличить одно от другого помогает простой вопрос: приложено ли к ярлыку проверяемое число и его источник.</p>
+  <p>Полезно развести два похожих числа. RTP описывает долю возврата на дистанции и в рамках одной версии не меняется от сессии к сессии. Статус «горячий» описывает недавнее поведение или популярность и к будущему результату отношения не имеет. Список, который сводит их в одну строку — «высокая отдача, игра горячая», — соединяет проверяемую величину с рекламной и обесценивает первую. Число берите из паспорта, ярлык отбрасывайте.</p>
+  <p>В сетке риска накрутка «горячих» стоит как умеренно частая и недорогая напрямую. Её вред, как и у пустой формулировки отдачи, косвенный: статус переключает внимание с чисел на эмоцию и подталкивает к импульсивной ставке. Рабочее правило — игнорировать любой динамический ярлык и возвращаться к трём постоянным величинам: версии RTP, классу волатильности и диапазону max win.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="flagi">
+ <div class="tslot-wrap">
+  <span class="tslot-num">Раздел 09</span>
+  <h2>Красные флаги топа слотов: вес и проверка за минуту</h2>
+  <div class="tslot-prose">
+   <p>Сведём признаки в один список с весами. Вес — условные баллы важности: чем выше, тем серьёзнее повод не доверять позиции. Сумма от восьми баллов — список стоит перепроверять целиком, от двенадцати — лучше искать игры по каталогу провайдера, минуя подборку. Веса иллюстративны и помогают расставить приоритет, а не выносят приговор площадке.</p>
+  </div>
+  <figure class="tslot-fig">
+   <svg viewBox="0 0 720 300" role="img" aria-labelledby="wft wfd">
+    <title id="wft">Вес красных флагов списка слотов</title>
+    <desc id="wfd">Горизонтальные столбцы весов шести красных флагов в условных баллах от нуля до пяти.</desc>
+    <g font-family="Manrope" font-size="13">
+     <text x="20" y="48" fill="var(--ink)">Нет версии RTP</text>
+     <rect x="250" y="34" width="250" height="20" rx="4" fill="var(--c1)"/><text x="508" y="49" fill="var(--ink)" font-weight="700">5</text>
+     <text x="20" y="88" fill="var(--ink)">Клон вне каталога провайдера</text>
+     <rect x="250" y="74" width="250" height="20" rx="4" fill="var(--c4)"/><text x="508" y="89" fill="var(--ink)" font-weight="700">5</text>
+     <text x="20" y="128" fill="var(--ink)">Нет сертификата ГСЧ</text>
+     <rect x="250" y="114" width="200" height="20" rx="4" fill="var(--c2)"/><text x="458" y="129" fill="var(--ink)" font-weight="700">4</text>
+     <text x="20" y="168" fill="var(--ink)">«Отдаёт» без числа и источника</text>
+     <rect x="250" y="154" width="150" height="20" rx="4" fill="var(--c6)"/><text x="408" y="169" fill="var(--ink)" font-weight="700">3</text>
+     <text x="20" y="208" fill="var(--ink)">Buy Feature как «занос»</text>
+     <rect x="250" y="194" width="150" height="20" rx="4" fill="var(--c3)"/><text x="408" y="209" fill="var(--ink)" font-weight="700">3</text>
+     <text x="20" y="248" fill="var(--ink)">Ярлык «горячий» без телеметрии</text>
+     <rect x="250" y="234" width="100" height="20" rx="4" fill="var(--c5)"/><text x="358" y="249" fill="var(--ink)" font-weight="700">2</text>
+    </g>
+    <line x1="250" y1="24" x2="250" y2="264" stroke="var(--line-2)" stroke-width="1"/>
+    <text x="250" y="284" font-family="Manrope" font-size="12" fill="var(--ink-3)">0</text>
+    <text x="500" y="284" font-family="Manrope" font-size="12" fill="var(--ink-3)">5 баллов</text>
+   </svg>
+   <p class="tslot-cap">Веса условные, для расстановки приоритета. Та же шкала и способ быстрой проверки — в таблице.</p>
+   <div class="tslot-tscroll">
+    <table>
+     <caption>Красные флаги списка слотов: вес и быстрая проверка</caption>
+     <thead><tr><th>Флаг</th><th>Вес</th><th>Быстрая проверка</th></tr></thead>
+     <tbody>
+      <tr><td><b>Нет версии RTP под позицией</b></td><td class="tslot-w">5</td><td>открыть меню «Информация» в игре и прочитать текущий RTP</td></tr>
+      <tr><td><b>Игры нет в каталоге провайдера</b></td><td class="tslot-w">5</td><td>найти тайтл на домене студии; клона там не будет</td></tr>
+      <tr><td><b>Нет сертификата ГСЧ</b></td><td class="tslot-w">4</td><td>сверить номер сертификата в реестре лаборатории</td></tr>
+      <tr><td><b>«Отдаёт» без числа и источника</b></td><td class="tslot-w">3</td><td>потребовать RTP, волатильность и ссылку на паспорт</td></tr>
+      <tr><td><b>Buy Feature подан как «занос»</b></td><td class="tslot-w">3</td><td>сравнить RTP покупки с базовым и с банкроллом</td></tr>
+      <tr><td><b>Ярлык «горячий» без данных</b></td><td class="tslot-w">2</td><td>проверить, есть ли за ярлыком телеметрия</td></tr>
+     </tbody>
+    </table>
+   </div>
+  </figure>
+ </div>
+</section>
+
+<section class="tslot-sect" id="poryadok">
+ <div class="tslot-wrap tslot-prose">
+  <span class="tslot-num">Раздел 10</span>
+  <h2>Как перепроверить слот из списка за шесть шагов</h2>
+  <p>Проверка одной позиции занимает несколько минут и снимает большинство рисков списка. Порядок построен так, чтобы сначала отсеять клонов и неизвестную версию RTP, а затем разобраться с бонусной покупкой и правилами кассы. Шаги выстроены от самого дешёвого по цене ошибки к частному.</p>
+  <ol class="tslot-steps">
+   <li><b>Найдите страницу игры на домене провайдера.</b> Откройте сайт студии, выпустившей автомат, и найдите тайтл в её каталоге. Сверьте точное написание названия и логотип: клоны копируют обложку, но живут на чужом домене.</li>
+   <li><b>Сверьте версию RTP с паспортом игры.</b> На странице провайдера указан теоретический RTP и перечень версий. Запишите число и сопоставьте его с тем, что показывает слот в разделе «Информация» перед запуском.</li>
+   <li><b>Проверьте сертификат ГСЧ и лабораторию.</b> В паспорте или подвале игры указана лаборатория: GLI, eCOGRA, iTech Labs или BMM. Номер сертификата должен относиться к этому тайтлу и провайдеру, а не к оператору.</li>
+   <li><b>Отделите маркетинговый статус от данных.</b> Ярлыки «горячий», «отдаёт сейчас», «топ недели» не подкреплены телеметрией. Игнорируйте их и смотрите на RTP, класс волатильности и диапазон max win.</li>
+   <li><b>Оцените Buy Feature и дисперсию отдельно.</b> Если в автомате есть покупка бонуса, заложенный RTP покупки и базовой игры различается. Посчитайте стоимость входа в бонус против банкролла до того, как нажать кнопку.</li>
+   <li><b>Проверьте лимиты и правила начисления в кассе.</b> Сверьте, засчитывается ли игра в отыгрыш бонуса и нет ли лимита ставки. Именно здесь список чаще всего расходится с реальными условиями оператора.</li>
+  </ol>
+  <p>После шести шагов позиция из списка либо подтверждается проверяемыми числами, либо отсеивается. В первом случае вы играете в сертифицированный оригинал с известной версией RTP; во втором — не теряете депозит на клоне или на конфигурации, о которой список умолчал.</p>
+ </div>
+</section>
+
+<section class="tslot-sect" id="faq">
+ <div class="tslot-wrap">
+  <span class="tslot-num">Раздел 11</span>
+  <h2>Короткие ответы о списках слотов</h2>
+  <div class="tslot-faq">
+   <details><summary>Почему один и тот же слот показывает разный RTP в разных казино?</summary>
+    <div class="tslot-ans"><p>Крупные провайдеры выпускают тайтл в нескольких версиях RTP — например 96,5 %, 94 % и 92 %. Оператор выбирает версию при подключении. Без подписи версии в списке число «высокий RTP» ничего не гарантирует: у вас может быть запущена самая низкая конфигурация.</p></div>
+   </details>
+   <details><summary>Как отличить оригинальный слот от клона в подборке?</summary>
+    <div class="tslot-ans"><p>Откройте домен провайдера и найдите тайтл в его каталоге. У оригинала совпадают название, логотип студии, номер сертификата лаборатории и заявленный RTP. Клон копирует обложку и имя, но живёт на чужом домене и часто не имеет паспорта игры и сертификата ГСЧ.</p></div>
+   </details>
+   <details><summary>Что означает статус «горячий» или «отдаёт сейчас» у игры в топе?</summary>
+    <div class="tslot-ans"><p>Это маркетинговый ярлык без телеметрии. Результат каждого спина определяет генератор случайных чисел, прошлые выплаты не влияют на будущие. «Горячих» и «холодных» автоматов в математическом смысле не существует, статус накручивается для привлечения внимания.</p></div>
+   </details>
+   <details><summary>Buy Feature повышает шансы на выигрыш?</summary>
+    <div class="tslot-ans"><p>Покупка бонуса гарантирует вход в бонусный раунд, но не повышает отдачу. RTP версии с покупкой у многих студий отличается от базовой игры, а стоимость входа в 50–100 ставок резко увеличивает дисперсию и скорость расхода банкролла.</p></div>
+   </details>
+   <details><summary>Можно ли доверять формулировке «самые отдающие слоты»?</summary>
+    <div class="tslot-ans"><p>Только если рядом есть проверяемые числа: версия RTP, класс волатильности, диапазон max win и ссылка на паспорт игры у провайдера. Формулировка без единой цифры и без источника — рекламный заголовок, а не данные об отдаче.</p></div>
+   </details>
+   <details><summary>Куда смотреть, если слот из списка оказался проблемным?</summary>
+    <div class="tslot-ans"><p>Сначала к домену провайдера и сертификату лаборатории, затем к правилам кассы оператора: лимит ставки при бонусе, засчитывается ли игра в отыгрыш, условия max cashout. Платёжные претензии решаются через поддержку оператора, при отказе — через платёжную систему или арбитра лицензии.</p></div>
+   </details>
+  </div>
+ </div>
+</section>
+
+<section class="tslot-sect" id="kanal">
+ <div class="tslot-wrap">
+  <span class="tslot-num">Раздел 12</span>
+  <h2>Пересборка подборки и канал обновлений</h2>
+  <div class="tslot-prose">
+   <p>Карта рисков пересматривается, когда меняется расклад релизов: студии выпускают новые версии RTP прежних тайтлов, появляются свежие клоны популярных игр, а площадки меняют принцип сортировки. При каждой такой правке мы обновляем сетку риска, веса флагов и порядок проверки, сохраняя числа как иллюстративную модель, а не замер конкретных сайтов. Отдельно отмечаем случаи, когда знакомая игра выходит в более низкой версии отдачи или когда в подборках появляется новый двойник известного тайтла: именно такие изменения чаще всего и застают игрока врасплох.</p>
+  </div>
+  <div class="tslot-channel">
+   <h2>Где выходят обновления</h2>
+   <p>Разборы новых списков, свежие версии RTP известных тайтлов и примеры клонов выкладываем в телеграм-канале. Это канал, а не отдельный пост: подписка показывает правки карты рисков по мере их появления.</p>
+   <a class="tslot-cta" href="https://t.me/top_casino_2027" rel="noopener" target="_blank">Открыть канал в Telegram →</a>
+  </div>
+  <div class="tslot-care">
+   <b>Ответственная игра 18+.</b> Материал носит справочный характер и помогает читать списки слотов критически, а не призывает к игре. Слот — развлечение с отрицательным математическим ожиданием на дистанции; ставьте только то, что готовы потерять, и устанавливайте лимиты депозита и времени. Если игра перестала быть развлечением, обратитесь за помощью на линию поддержки.
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="tslot-foot">
+ <div class="tslot-wrap">
+  <div class="tslot-foot-grid">
+   <div>
+    <h4>Контрольный спин</h4>
+    <p>Независимая редакция о том, как читать списки слотов по проверяемым числам: версия RTP, волатильность, max win, домен провайдера и сертификат ГСЧ.</p>
+   </div>
+   <div>
+    <h4>Разделы</h4>
+    <ul>
+     <li><a href="#setka">Сетка риска</a></li>
+     <li><a href="#versiya">Версия RTP</a></li>
+     <li><a href="#domen">Домен провайдера</a></li>
+     <li><a href="#flagi">Красные флаги</a></li>
+    </ul>
+   </div>
+   <div>
+    <h4>О данных</h4>
+    <p>Числа в графиках — иллюстративная модель частоты, стоимости ошибки и веса флагов, не измерение конкретных площадок. Факты об RTP, версиях и лабораториях общие и проверяемые.</p>
+   </div>
+  </div>
+  <p class="tslot-fine">© 2026 Редакция «Контрольный спин». Справочный материал о выборе игр, 18+. Единственная внешняя ссылка ведёт на телеграм-канал; ссылки на лаборатории помечены nofollow.</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var m=document.getElementById('tslot-mast');
+ var onScroll=function(){if(window.scrollY>8)m.classList.add('tslot-stuck');else m.classList.remove('tslot-stuck');};
+ onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+
+ var btn=document.getElementById('tslot-theme');
+ var root=document.documentElement;
+ try{var saved=localStorage.getItem('tslot-theme');if(saved)root.setAttribute('data-theme',saved);}catch(e){}
+ btn.addEventListener('click',function(){
+  var cur=root.getAttribute('data-theme');
+  var dark=cur?cur==='dark':window.matchMedia('(prefers-color-scheme:dark)').matches;
+  var next=dark?'light':'dark';
+  root.setAttribute('data-theme',next);
+  try{localStorage.setItem('tslot-theme',next);}catch(e){}
+ });
+
+ var links=[].slice.call(document.querySelectorAll('.tslot-nav a'));
+ var map={};links.forEach(function(a){var id=a.getAttribute('href').slice(1);var s=document.getElementById(id);if(s)map[id]=a;});
+ if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){
+   es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('tslot-on');});var a=map[e.target.id];if(a)a.classList.add('tslot-on');}});
+  },{rootMargin:'-40% 0px -55% 0px'});
+  Object.keys(map).forEach(function(id){io.observe(document.getElementById(id));});
+ }
+})();
+</script>
+</body>
+</html>
